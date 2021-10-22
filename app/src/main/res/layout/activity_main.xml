@@ -23,7 +23,7 @@
         android:id="@+id/conversion_question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What do you want to convert?"
+        android:text="@string/select_which_units_to_convert"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/amount_to_convert"/>
 
@@ -40,25 +40,25 @@
             android:id="@+id/option_ml_to_fl_oz"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Milliliters to Fluid Ounces" />
+            android:text="@string/milliliters_to_fluid_ounces" />
 
         <RadioButton
             android:id="@+id/option_fl_oz_to_ml"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fluid Ounces to Milliliters" />
+            android:text="@string/fluid_ounces_to_milliliters" />
 
         <RadioButton
             android:id="@+id/option_grams_to_ounces"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Grams to Ounces" />
+            android:text="@string/grams_to_ounces" />
 
         <RadioButton
             android:id="@+id/option_ounces_to_grams"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ounces to Grams" />
+            android:text="@string/ounces_to_grams" />
 
     </RadioGroup>
 

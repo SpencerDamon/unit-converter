@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Kitchen Unit Converter</string>
+    <string name="app_name">Unit Converter</string>
+    <string name="select_which_units_to_convert">Select which units to convert</string>
+    <string name="milliliters_to_fluid_ounces">Milliliters to Fluid Ounces</string>
+    <string name="fluid_ounces_to_milliliters">Fluid Ounces to Milliliters</string>
+    <string name="grams_to_ounces">Grams to Ounces</string>
+    <string name="ounces_to_grams">Ounces to Grams</string>
 </resources>
